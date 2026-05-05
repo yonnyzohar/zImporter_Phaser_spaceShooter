@@ -1,0 +1,39 @@
+{
+  "name": "zImporter_Phaser_spaceShooter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "myTest": "ts-node test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/eslint": "^9.6.1",
+    "@types/gsap": "^3.0.0",
+    "@types/node": "^22.13.2",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "ignore": [
+    "node_modules",
+    "logs",
+    "*.log",
+    ".vscode"
+  ],
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "gsap": "^3.12.7",
+    "reflect-metadata": "^0.2.2",
+    "zimporter-phaser": "latest"
+  }
+}
